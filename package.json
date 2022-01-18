@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.0",
+    "parcel": "^2.2.0"
+  },
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "locomotive-scroll": "^4.1.3"
+  }
+}

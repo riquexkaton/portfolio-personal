@@ -1,0 +1,28 @@
+@import "./initial";
+@import "./header";
+@import "./locomotive";
+@import "./colors";
+@import "./marquee";
+@import "./about";
+@import "./skills";
+@import "./marquee-skills";
+@import './view-projects';
+@import "./projects_before";
+@import "./projects_after";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: whyte;
+}
+
+body {
+    width: 100%;
+    background-color: $color1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
